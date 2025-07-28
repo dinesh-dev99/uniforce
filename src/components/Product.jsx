@@ -1,5 +1,12 @@
 import { useRef } from "react";
 import { ChevronDoubleRightIcon, ChevronDoubleLeftIcon } from '@heroicons/react/24/outline';
+import pdt from '/src/assets/pdt.jpeg';
+import pdt1 from '/src/assets/pdt1.jpeg';
+import pdt2 from '/src/assets/pdt2.jpeg';
+import pdt3 from '/src/assets/pdt3.jpeg';
+import pdt4 from '/src/assets/pdt4.jpeg';
+import pdt5 from '/src/assets/pdt5.jpeg';
+import pdt6 from '/src/assets/pdt6.jpeg';
 
 
 export default function Product() {
@@ -16,12 +23,13 @@ export default function Product() {
   };
 
   const images = [
-    "/src/assets/pdt.jpeg",
-    "/src/assets/pdt2.jpeg",
-    "/src/assets/pdt3.jpeg",
-    "/src/assets/pdt4.jpeg",
-    "/src/assets/pdt5.jpeg",
-    "/src/assets/pdt6.jpeg",
+    "pdt",
+    "pdt1",
+    "pdt2",
+    "pdt3",
+    "pdt4",
+    "pdt5",
+    "pdt6",
   ];
 
   return (
