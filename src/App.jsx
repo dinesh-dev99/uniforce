@@ -7,7 +7,7 @@ import ReadingSteps from './components/ReadingSteps';
 
 
 const handleWhatsAppClick = () => {
-  const phoneNumber = "916372512984"; // Replace with your number (no +)
+  const phoneNumber = "919999999999"; // Replace with your number (no +)
   const message = "I Want to BUY.";
   const encodedMsg = encodeURIComponent(message);
   const url = `https://wa.me/${phoneNumber}?text=${encodedMsg}`;
