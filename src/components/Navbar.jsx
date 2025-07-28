@@ -4,7 +4,7 @@ import { ChatBubbleOvalLeftIcon } from '@heroicons/react/24/outline';
 
 
 const handleWhatsAppClick = () => {
-  const phoneNumber = "919999999999"; // Replace with your number (no +)
+  const phoneNumber = "918763126640"; // Replace with your number (no +)
   const message = "Help.";
   const encodedMsg = encodeURIComponent(message);
   const url = `https://wa.me/${phoneNumber}?text=${encodedMsg}`;
