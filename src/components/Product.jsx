@@ -23,13 +23,13 @@ export default function Product() {
   };
 
   const images = [
-    "pdt",
-    "pdt1",
-    "pdt2",
-    "pdt3",
-    "pdt4",
-    "pdt5",
-    "pdt6",
+    pdt,
+    pdt1,
+    pdt2,
+    pdt3,
+    pdt4,
+    pdt5,
+    pdt6,
   ];
 
   return (
